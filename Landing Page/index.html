@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Impressive Landing Page</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Define a color palette */
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #e74c3c;
+            --text-color: #333;
+            --background-color: #f2f2f2;
+        }
+
+        /* Apply styles to the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://media.istockphoto.com/id/962445754/photo/in-flight.jpg?s=612x612&w=0&k=20&c=GKZYaKs1vxbtH4RrGs_mwaJ7maO-pMvD6bJexZlKrmw=");
+            color: var(--text-color);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Create a header section */
+        header {
+            
+            color: black solid;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Style the header title */
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Style the header subtitle */
+        header p {
+            font-size: 18px;
+        }
+
+        /* Create a main content section with columns */
+        .main-content {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+           
+            border-radius: 10px;
+        }
+
+        /* Style individual column */
+        .column {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+            background-color: rgba(4, 48, 80, 0.441);
+        }
+        .column1 {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+           
+            background-color: rgba(4, 48, 80, 0.441);
+        }
+        h2, .column p, .column1 p{
+            color: white;
+        }
+        /* Create a footer */
+        footer {
+          
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Add some responsive styles */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .column {
+                width: 100%;
+                margin: 10px 0;
+            }
+            .column1 {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><strong><b>GLOBETREK ADVENTURES</strong></b></h1>
+        <p>Explore the world, create Memories..</p>
+    </header>
+    
+    <div class="main-content">
+        <div class="column">
+            <h2>Explore our Destinations</h2><br>
+            <p> From exotic beaches to cultural treasures, explore a diverse range of destinations. Let your wanderlust guide you to your dream vacation.</p>
+        </div>
+        
+        <div class="column">
+            <h2>Plan your Journey</h2><br>
+            <p>Start planning your dream vacation today. Browse our tours, check availability, and secure your spot for an unforgettable experience.</p>
+        </div>
+        
+        <div class="column">
+            <h2>Featured Tours</h2><br>
+            <p>Discover our handpicked tours that showcase the best of each destination. Immerse yourself in unique experiences tailored for every traveler.</p>
+        </div>
+
+        <div class="column1">
+            <h2>Why Choose Us</h2><br>
+            <p> Find out why travelers trust us for their journeys. We offer expert guides, safe travels, and a commitment to sustainable and responsible tourism.</p>
+        </div>
+
+        <div class="column1">
+            <h2>Customer Reviews</h2><br>
+            <p>Hear from our happy travelers. Read reviews and testimonials from those who've embarked on unforgettable adventures with us.</p>
+        </div>
+
+        <div class="column1">
+            <h2>Contact Us</h2><br>
+            <p>Have questions or need assistance? Our friendly team is here to help. Get in touch, and let's start planning your next adventure.</p>
+        </div>
+
+        
+    </div>
+
+    <footer>
+        &copy; globetrek adventures
+    </footer>
+</body>
+</html>
